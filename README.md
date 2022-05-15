@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto construído no Chapter III do Ignite React 🚀
+## SSR(Server Side Rendering)
 
-## Getting Started
+A diferença de um SPA e um SSR é que o SSR possui um intermeio(O Next.js) entre o servidor(backend) e o cliente(browser). Diferente do SPA que tem apenas a conexão borwser-servidor. O SSR veio para solucionar alguns problemas das aplicações SPAs
 
-First, run the development server:
+*curiosidade: uma aplicação SSR continua sendo exibida alguns conteúdos, mesmo se o javascript da pagina for desabilitado
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+# Mas porque adicionar o SSR?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+As pessoas perceberam que colocar muito código javascript no lado do cliente era um problema. E foi assim que o next surgiu. Ou seja, ele faz uma renderização do lado do servidor
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Vantagens do Nextjs
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- tempo de carregamento das paginas
+- aumento no desempenho
+- melhora nos mecanismos de pesquisa(SEO)
+- O SSR é melhor indexado no google.
+- Facilidade na configuração
+- não precisamos nos preocupar com babel ou webpack
+- otimizador de imagens
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
